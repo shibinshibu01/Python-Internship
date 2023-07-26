@@ -4,5 +4,6 @@ age=22
 student=True
 print(name,'|',age,"| Student:",student)
 name=input('Enter your Name: ')
-age=input('Enter your Age: ')
+age=int(input('Enter your Age: '))
 print(name,' is ',age,' years old!')
+#commenting for commenting!
