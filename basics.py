@@ -7,3 +7,7 @@ name=input('Enter your Name: ')
 age=int(input('Enter your Age: '))
 print(name,' is ',age,' years old!')
 #commenting for commenting!
+x=10
+y=3
+result=x/y
+print(result)
