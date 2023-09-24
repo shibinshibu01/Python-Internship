@@ -11,3 +11,8 @@ print(str,str1,str2,str3,str4)
 print(str5[4])
 print(str5[-4],str5[1:-1])
 
+str="Hello World"
+print(str.upper())
+print(str.lower())
+print(str.find('W'))
+
