@@ -12,10 +12,10 @@ def clear():
 
 screen = tk.Tk()
 screen.title("Calculator")
-screen.configure(bg='black')
+screen.configure(bg='#000000')
 
 
-entry = tk.Entry(width=20,bg='White',fg="Black", font=('Arial', 20))
+entry = tk.Entry(width=20,bg='White',fg="#000000", font=('Arial', 20))
 entry.grid(row=0, column=0, columnspan=4)
 
 buttons = [
@@ -26,10 +26,10 @@ buttons = [
 ]
 
 for label, row, col in buttons:
-    button = tk.Button(text=label,bg='black',fg="White", padx=20, pady=20, font=('Arial', 20), command=lambda label=label: button_click(label))
+    button = tk.Button(text=label,bg='#000000',fg="#ffffff", padx=20, pady=20, font=('Arial', 20), command=lambda label=label: button_click(label))
     button.grid(row=row, column=col)
     
-calculate = tk.Button(text='=', padx=20, pady=20,bg='White',fg="black", font=('Arial', 20), command=calculate)
+calculate = tk.Button(text='=', padx=20, pady=20,bg='White',fg="#000000", font=('Arial', 20), command=calculate)
 calculate.grid(row=4, column=3)
 clear = tk.Button(text='C', padx=18, pady=20,bg='Red',fg="White", font=('Arial', 20), command=clear)
 clear.grid(row=3, column=3)
