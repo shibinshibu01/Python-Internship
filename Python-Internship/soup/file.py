@@ -4,7 +4,8 @@ file=open("index.html")
 cont=file.read()
 file.close()
 soup = BeautifulSoup(cont, "html.parser")
-print(soup.h1)
-print(soup.a)
 
 
+tags = soup.find_all("a")
+values = [tag.get("href") for tag in tags]
+print(values)
