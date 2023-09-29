@@ -22,6 +22,3 @@ for titles,links,points in zip(values,values1,values2):
     print("\n------Article Points------")
     print(points)
     print("\n\n")
-    
-
-    
